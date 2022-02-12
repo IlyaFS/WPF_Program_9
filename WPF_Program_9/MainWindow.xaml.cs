@@ -31,7 +31,7 @@ namespace WPF_Program_9
             Application.Current.Resources.MergedDictionaries.Add(resource);
 
         }
-        private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        public void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             string fontName = ((sender as ComboBox).SelectedItem as string);
             if (textBox != null) textBox.FontFamily = new FontFamily();

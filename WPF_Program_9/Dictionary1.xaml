@@ -3,7 +3,7 @@
     <col:ArrayList x:Key="fonts">
         <sys:String>Arial</sys:String>
         <sys:String>ISOCPEUR</sys:String>
-        <sys:String>Tahoma</sys:String>
+        <sys:String>Verdana</sys:String>
     </col:ArrayList>
     <col:ArrayList x:Key="fontsSize">
         <sys:String>12</sys:String>
